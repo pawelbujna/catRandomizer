@@ -1,0 +1,66 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+header {
+  height: 300px;
+  width: 100%;
+  background-image: url('../img/fur.jpg');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .header-box {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 600px;
+    padding: 20px 0;
+  }
+
+  .title {
+    color: #fff;
+    font-size: 45px;
+    margin: 0;
+  }
+
+  .subtitle {
+    color: #eee;
+    font-size: 20px;
+    margin: 0;
+  }
+}
+
+
+section {
+  display: flex;
+  justify-content: center;
+
+  .kitty-picture {
+    text-align: center;
+  }
+
+  button {
+    display: block;
+    background-color: #239E23;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    margin: 20px 0 ;
+    color: white;
+    font-size: 18px;
+  }
+
+  img {
+    max-width: 1000px;
+    height: auto;
+  }
+}

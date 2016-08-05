@@ -1,0 +1,13 @@
+{
+  "name": "catRandomizer",
+  "version": "0.0.1",
+  "description": "",
+  "author": "papu",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "~1.5.8",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.9"
+  }
+}
